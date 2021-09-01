@@ -7,6 +7,11 @@
   "dependencies": [
     "cfitsio",
     "curl",
+	"openssl",
+    {
+      "name": "curl",
+      "features": [ "http2" ]
+    },
     "expat",
     "geos",
     "giflib",
@@ -15,6 +20,7 @@
       "name": "json-c",
       "platform": "!windows"
     },
+    "tiff",
     "libgeotiff",
     "liblzma",
     "libpng",
